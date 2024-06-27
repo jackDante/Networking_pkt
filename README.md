@@ -23,3 +23,8 @@ SG350X#interface [interface-id | range vlan vlan-range]
 SG350X(config-if)#switchport mode trunk
 SG350X(config-if)#switchport trunk allowed vlan [all | none | add vlan-list | remove vlan-list | except vlan-list]
 ```
+## sw 1-2-3
+https://www.cisco.com/c/en/us/support/switches/catalyst-ie3300-rugged-series/series.html
+
+## sw backbone01
+https://www.cisco.com/c/en/us/support/switches/catalyst-9500-series-switches/series.html
