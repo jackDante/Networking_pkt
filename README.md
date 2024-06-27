@@ -5,7 +5,8 @@ a guided Cisco Packet Tracer project about GE_4ax SCADA Network
 
 
  Where a single device like a pc, printer or server is connected to a port, then you should use "switchport mode access" and switchport access vlan xxx, where xxx is the vlan number.
- 
+
+```
 SG350X#show vlan
 SG350X#configure terminal
 SG350X(config)#interface [interface-id | range vlan vlan-range]
@@ -21,3 +22,4 @@ SG350X#configure terminal
 SG350X#interface [interface-id | range vlan vlan-range]
 SG350X(config-if)#switchport mode trunk
 SG350X(config-if)#switchport trunk allowed vlan [all | none | add vlan-list | remove vlan-list | except vlan-list]
+```
